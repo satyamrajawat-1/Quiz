@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/js/projects/src/output.css">
+</head>
+<body class="container bg-gray-800 flex justify-center items-center h-lvh w-lvw flex-col text-white">
+    <div class="container bg-gray-900 border-2 border-black min-h-40 flex flex-col items-center w-96 rounded-3xl gap-4">
+        <h1 class="text-2xl font-bold mt-1">Quiz App</h1>
+        <div id="Quiz-container" class="">
+            <div id="question-container" class="w-80">
+                <h2 id="question-text" class="font-medium text-lg mb-2"></h2>
+                <ul id="choice-list"></ul>
+                <button id="next-btn">Next Question</button>
+            </div>
+            <div id="result-container" class="w-80 flex flex-col items-center">
+                <h2 class="text-xl inline-block">Your Score : </h2>
+                <p id="score" class="text-xl">25</p>
+                <button id="restart-btn">Restart Quiz</button>
+            </div>
+            <div id="start-btn" class="mt-6">Start Quiz</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
